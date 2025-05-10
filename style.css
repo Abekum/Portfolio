@@ -66,24 +66,25 @@ section {
 }
 
 /* Home Section Layout */
-.home-content {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 2rem;
-    align-items: start;
-}
+
+
 
 /* Left Column (Photo) */
 .position {
-    grid-column: 1;
-    display: flex;
-height: 200px;
+      grid-column: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem;
+   
+  
+ 
 }
 
 .position img {
-    display: flex;
-    height: auto;
-    border-radius: 7px;
+    width:250px;
+    height: 300px;
+    border-radius: 100px;
     object-fit: cover;
 }
 
@@ -91,19 +92,21 @@ height: 200px;
 
 /* Right Column (Welcome Content) */
 .welcome {
-
-    grid-column: 2;
-    width: 100%;
-    color: #e6f1ee;
+ 
+    color: #084f91;
     font-size: 18px;
     font-weight: bold;
-    background: linear-gradient(to bottom right, #091d22, #5aa08d);
+ 
     padding: 2rem;
     border-radius: 15px;
     border: 2px solid #00ff95;
     text-align: center;
     animation: rotate 4s infinite linear;
-    height: auto;
+    width: 70%;
+  
+    margin-left: 30%;
+margin-top: -11rem;
+    height: min-content;
 }
 
 /* About Section */
@@ -118,7 +121,7 @@ height: 200px;
     width: 100%;
     padding: 1.5rem;
     border-radius: 10px;
-    background: linear-gradient(to bottom right, #091d22, #09eeb1);
+    background: linear-gradient(to bottom right, #091d22, #7b9e95);
     border: 2px solid #00ff55;
     transition: transform 0.3s;
 }
@@ -127,7 +130,7 @@ height: 200px;
 .contact-content {
     text-align: center;
     padding: 2rem;
-    background: linear-gradient(to bottom right, #091d22, #09eeb1);
+   
     border-radius: 10px;
     border: 2px solid #00ff55;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
@@ -138,7 +141,7 @@ height: 200px;
 
 .text-animatec {
     font-size: 1.2rem;
-    color: moccasin;
+    color: rgb(48, 46, 42);
     font-weight: bold;
     text-align: center;
     margin-top: 1rem;
@@ -146,13 +149,13 @@ height: 200px;
 }
 
 .text-animatec a {
-    color: #00abf0;
+    color: #6800f0;
     border: 2px solid #00ff95;
     border-radius: 10px;
     padding: 8px 16px;
     font-weight: bold;
     transition: all 0.3s;
-    background: linear-gradient(to bottom right, #091d22, #09eeb1);
+ 
     margin: 10px;
     display: inline-block;
     text-decoration: none;
