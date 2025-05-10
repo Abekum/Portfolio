@@ -91,7 +91,7 @@ height: 200px;
 
 /* Right Column (Welcome Content) */
 .welcome {
-   
+
     grid-column: 2;
     width: 100%;
     color: #e6f1ee;
